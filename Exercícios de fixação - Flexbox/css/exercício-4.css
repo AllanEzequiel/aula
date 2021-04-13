@@ -1,0 +1,101 @@
+* body p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: #5465C9;
+    display: flex;
+}
+
+p {
+    color: rgba(19, 18, 18, 0.568);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+ /* section */
+
+.section-width {
+ width: 70vh;
+}
+
+.container-btn {
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #5465C9;
+    width: 34vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.p1 {
+    padding-bottom: 25px;
+}
+
+.p2 {
+    margin: 20px 0px 0px 0px;
+}
+
+i {
+    padding: 5px;
+}
+
+ /* form */
+main form div .form-control {
+    width: 70vh;
+    height: 45px;
+    background-color: #F3F5F7;
+}
+
+main form .btn-secondary {
+    width: 70vh;
+    background-color: #5465C9;
+}
+
+main form div {
+    position: relative;
+}
+
+main form div label {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 14px;
+    background-color: #F3F5F7;
+    padding: 0px 5px 0px 5px;
+}
+
+.p3, a {
+    text-decoration: none;
+    padding-top: 20px;
+}
